@@ -1,10 +1,36 @@
-<html>
+<!DOCTYPE html>
+<html lang="pt-BR">
 <head>
-<title> Ola mundo! </title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Minha Jornada na Programação</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-<p> Ola mundo!</p>
-<p> Este site foi criado por:Gabriel Brito </p>
-<p> Eu gosto de Macarrão com salsicha! </p>
+  <header>
+    <h1>Olá! Meu nome é Gabriel</h1>
+    <p>Estudante e iniciante em programação.</p>
+  </header>
+
+  <section class="sobre">
+    <h2>Sobre mim</h2>
+    <p>Sou um(a) estudante do ensino médio e comecei a aprender programação recentemente. Estou muito empolgado(a) em descobrir como tudo funciona por trás dos sites e aplicativos que usamos todos os dias!</p>
+  </section>
+
+  <section class="aprendizado">
+    <h2>Minha Jornada</h2>
+    <ul id="lista-aprendizado">
+      <li>📘 Comecei aprendendo HTML e entendi como criar páginas web.</li>
+      <li>🎨 Depois fui para o CSS para deixar tudo mais bonito!</li>
+      <li>🧠 Agora estou explorando JavaScript para adicionar interatividade.</li>
+    </ul>
+    <button onclick="adicionarEtapa()">Adicionar nova etapa</button>
+  </section>
+
+  <footer>
+    <p>Feito com ❤️ por Gabriel - <a href="https://github.com/SeuUsuario" target="_blank">GitHub</a></p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
