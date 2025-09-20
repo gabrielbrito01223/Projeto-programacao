@@ -1,5 +1,5 @@
 function adicionarEtapa() {
-  const novaEtapa = prompt("Digite a nova etapa da sua jornada:");
+  const novaEtapa = prompt("Type a step for your journey:");
   if (novaEtapa) {
     const lista = document.getElementById("lista-aprendizado");
     const item = document.createElement("li");
