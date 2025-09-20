@@ -1,5 +1,5 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: fantasy, monospace;
   margin: 0;
   background-color: #f4f4f4;
   color: #333;
@@ -32,7 +32,7 @@ li {
   margin: 0.5rem 0;
   padding: 1rem;
   border-radius: 8px;
-  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  box-shadow: 0 0 5px rgba(0,0,0,0.4);
 }
 
 button {
@@ -40,7 +40,7 @@ button {
   padding: 0.5rem 1rem;
   background-color: #0077cc;
   color: white;
-  border: none;
+  border: purple;
   border-radius: 6px;
   cursor: pointer;
 }
